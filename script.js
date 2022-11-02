@@ -17,9 +17,3 @@ const updateScore = winner => winner === 'human' ? humanScore++: computerScore++
 
 
 const advanceRound = () => currentRoundNumber++;
-
-const getAbsoluteDistance = (x, y) => {
-    const humanDifference = (target -humanG);
-    const computerDifference = (target -computerG);
-    return x <= y;
-};
